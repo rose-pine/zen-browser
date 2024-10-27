@@ -19,7 +19,9 @@
 
 ## Gallery
 
-![Rosé Pine with Zen Browser](https://github.com/user-attachments/assets/61b03d3b-7c0a-4a6a-914a-fc34d825ca5b)
+![Rosé Pine with Zen Browser](https://github.com/user-attachments/assets/fa9b285c-2805-4df9-bdf7-c5679f175afd)
+![Rosé Pine Moon with Zen Browser](https://github.com/user-attachments/assets/87a6d811-a91d-47f0-bd4d-f1ff1f4ee583)
+![Rosé Pine Dawn with Zen Browser](https://github.com/user-attachments/assets/f77bb6cc-9e97-4e72-976c-cafcaab8c78c)
 
 ## Thanks to
 
