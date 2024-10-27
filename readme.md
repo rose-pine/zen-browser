@@ -13,7 +13,9 @@
 
 ## Usage
 
-- Copy or create link from `dist/<variant>/userChrome.css` to `chrome` in your's Zen Browser's profile directory.
+- Copy `dist/` content to your Zen Browser's profile directory.
+- Edit first line of `userChrome.css` if you want to change default variant to another.
+- Restart your browser.
 
 ## Gallery
 
