@@ -50,3 +50,15 @@ html#main-window {
     
     --arrowpanel-color: #e0def4 !important;
 }
+
+#tabbrowser-tabbox {
+	  border-top-left-radius: 10px !important;
+    border-left-width: 1px !important;
+    border-top-width: 1px !important;
+    border-color: #26233a !important;
+    border-style: solid !important;
+}
+
+#urlbar-background {
+    border: 1px solid #26233a !important;
+}
