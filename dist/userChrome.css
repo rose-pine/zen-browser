@@ -1,88 +1,71 @@
 @import "rose-pine-main.css";
 
-#zen-main-app-wrapper {
-  background-color: var(--base) !important;
-}
-
-#appMenu-mainView {
-  background-color: var(--overlay) !important;
-}
-
-#appmenu-moreTools {
-  background-color: var(--overlay) !important;
-}
-
-#PanelUI-button {
-  --button-active-bgcolor: black !important;
-}
-
-toolbox#navigator-toolbox {
-  background-color: var(--base) !important;
-}
-
-#zen-appcontent-navbar-container {
-  background-color: var(--base) !important;
-}
-
-.menu-text {
-  color: var(--text) !important;
-}
-
-.menuitem-iconic {
-  color: var(--love) !important;
-}
-
-:not(:not(menubar) > menu, #ContentSelectDropdown)
-  > menupopup
-  > menuitem:not(
-    .menuitem-iconic,
-    [type="checkbox"],
-    [type="radio"],
-    .in-menulist,
-    .in-menulist menuitem,
-    .unified-nav-current
-  ),
-:not(:not(menubar) > menu, #ContentSelectDropdown)
-  > menupopup
-  > menu:not(
-    .menu-iconic,
-    [type="checkbox"],
-    [type="radio"],
-    .in-menulist,
-    .in-menulist menu,
-    .unified-nav-current
-  ),
-#toggle_toolbar-menubar,
-#PanelUI-history toolbarbutton,
-#unified-extensions-context-menu menuitem {
-  fill: var(--text) !important;
-}
-
-html#main-window {
+:root {
+  --zen-colors-primary: var(--base) !important;
+  --zen-primary-color: var(--base) !important;
+  --zen-colors-secondary: var(--surface) !important;
+  --zen-colors-tertiary: var(--overlay) !important;
+  --zen-colors-border: var(--iris) !important;
+  --toolbarbutton-icon-fill: var(--iris) !important;
   --lwt-text-color: var(--text) !important;
-  --toolbarbutton-icon-fill: var(--love) !important;
-  --toolbar-field-color: var(--pine) !important;
-  --toolbar-field-focus-color: var(--pine) !important;
-  --toolbar-field-background-color: var(--surface) !important;
-  --toolbar-field-focus-background-color: var(--surface) !important;
-
-  --zen-colors-primary: var(--rose) !important;
-  --zen-colors-secondary: var(--overlay) !important;
-  --zen-colors-tertiary: var(--base) !important;
-  --zen-colors-border: var(--base) !important;
-  --zen-dialog-background: var(--overlay) !important;
-
+  --toolbar-field-color: var(--text) !important;
+  --tab-selected-textcolor: var(--iris) !important;
+  --toolbar-field-focus-color: var(--text) !important;
+  --toolbar-color: var(--text) !important;
+  --newtab-text-primary-color: var(--text) !important;
   --arrowpanel-color: var(--text) !important;
+  --arrowpanel-background: var(--overlay) !important;
+  --sidebar-text-color: var(--text) !important;
+  --lwt-sidebar-text-color: var(--text) !important;
+  --lwt-sidebar-background-color: var(--base) !important;
+  --toolbar-bgcolor: var(--base) !important;
+  --newtab-background-color: var(--overlay) !important;
+  --zen-themed-toolbar-bg: var(--base) !important;
+  --zen-main-browser-background: var(--base) !important;
 }
 
-#tabbrowser-tabbox {
-  border-top-left-radius: 10px !important;
-  border-left-width: 1px !important;
-  border-top-width: 1px !important;
-  border-color: var(--overlay) !important;
-  border-style: solid !important;
+#permissions-granted-icon {
+  color: #181825 !important;
+}
+
+.sidebar-placesTree {
+  background-color: var(--surface) !important;
+}
+
+#zen-workspaces-button {
+  background-color: var(--surface) !important;
 }
 
 #urlbar-background {
-  border: 1px solid var(--overlay) !important;
+  background-color: var(--surface) !important;
+}
+
+.tab-background[selected=""] {
+  background: var(--overlay) !important;
+}
+
+.content-shortcuts {
+  background-color: var(--surface) !important;
+  border-color: #89b4fa !important;
+}
+
+.urlbarView-url {
+  color: var(--iris) !important;
+}
+
+#zenEditBookmarkPanelFaviconContainer {
+  background: var(--base) !important;
+}
+
+toolbar .toolbarbutton-1 {
+  &:not([disabled]) {
+    &:is([open], [checked])
+      > :is(
+        .toolbarbutton-icon,
+        .toolbarbutton-text,
+        .toolbarbutton-badge-stack
+      ) {
+      fill: var(--base);
+    }
+  }
 }
