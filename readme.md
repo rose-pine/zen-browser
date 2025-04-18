@@ -13,9 +13,20 @@
 
 ## Usage
 
-- Copy `dist/` content to your Zen Browser's profile directory.
-- Edit first line of `userChrome.css` if you want to change default variant to another.
-- Restart your browser.
+
+1. Locate your **Zen Browser profile directory**.
+
+    - Open Zen Browser and go to `about:support`
+   
+    - Under **Application Basics**, look for **Profile Directory** and click **"Open Directory"**
+
+2. Inside the profile directory, create a folder named `chrome` (if it doesn't already exist).
+
+3. Copy the contents of the `dist/` directory into the `chrome/` folder.
+
+4. *(Optional)* Edit the first line of `userChrome.css` to switch the default variant to a different one.
+
+5. Restart your browser.
 
 ## Gallery
 
