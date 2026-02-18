@@ -17,7 +17,7 @@
 2. Inside your profile folder, create a new folder named `chrome`
 3. Copy the contents of the `dist` folder from this repository and paste them into the newly created `chrome` folder
 > **Optional:** To change the default theme, open the `userChrome.css` file in a text editor. Update the `@import` line at the top to point to your preferred `.css` theme file
-4. Type `about:config` in the address bar, and press Enter. Search for `toolkit.legacyUserProfileCustomizations.stylesheets` and set it's value to `true`
+4. Type `about:config` in the address bar, and press Enter. Search for `toolkit.legacyUserProfileCustomizations.stylesheets` and set its value to `true`
 5. Restart Zen Browser for the changes to take effect
 
 ## Gallery
