@@ -13,9 +13,12 @@
 
 ## Usage
 
-- Copy `dist/` content to your Zen Browser's profile directory.
-- Edit first line of `userChrome.css` if you want to change default variant to another.
-- Restart your browser.
+1. Open Zen Browser, type `about:support` in the address bar, and press Enter. Look for the `Profile Folder` row and click `Open Folder`
+2. Inside your profile folder, create a new folder named `chrome`
+3. Copy the contents of the `dist` folder from this repository and paste them into the newly created `chrome` folder
+> **Optional:** To change the default theme, open the `userChrome.css` file in a text editor. Update the `@import` line at the top to point to your preferred `.css` theme file
+4. Type `about:config` in the address bar, and press Enter. Search for `toolkit.legacyUserProfileCustomizations.stylesheets` and set it's value to `true`
+5. Restart Zen Browser for the changes to take effect
 
 ## Gallery
 
