@@ -22,10 +22,17 @@
   --newtab-background-color: var(--overlay) !important;
   --zen-themed-toolbar-bg: var(--base) !important;
   --zen-main-browser-background: var(--base) !important;
+  --zen-main-browser-background-toolbar: var(--base) !important;
+  --zen-navigator-toolbox-background: var(--base) !important;
 }
 
 #permissions-granted-icon {
   color: #181825 !important;
+}
+
+.zen-browser-generic-background {
+  --zen-main-browser-background: var(--base) !important;
+  --zen-main-browser-background-toolbar: var(--base) !important;
 }
 
 .sidebar-placesTree {
