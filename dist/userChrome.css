@@ -1,4 +1,5 @@
-@import "rose-pine-main.css";
+@import "rose-pine-main.css" (prefers-color-scheme: dark);
+@import "rose-pine-dawn.css" (prefers-color-scheme: light);
 
 :root {
   --zen-colors-primary: var(--base) !important;
