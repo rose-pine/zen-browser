@@ -22,6 +22,7 @@
   --newtab-background-color: var(--overlay) !important;
   --zen-themed-toolbar-bg: var(--base) !important;
   --zen-main-browser-background: var(--base) !important;
+  --zen-main-browser-background-toolbar: var(--base) !important;
 }
 
 #permissions-granted-icon {
